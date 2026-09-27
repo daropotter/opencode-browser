@@ -44,7 +44,7 @@
   ],
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "test": "node --test"
+    "test": "tsx test/plugin.test.ts"
   },
   "engines": {
     "node": ">=18.0.0"
@@ -53,6 +53,7 @@
     "@opencode-ai/plugin": "^1.18.32",
     "@opencode/plugin": "^2.0.18",
     "@types/node": "^24.12.2",
+    "tsx": "^4.23.15",
     "typescript": "^5.8.2"
   }
 }
